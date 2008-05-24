@@ -5,13 +5,13 @@ use warnings;
 use Text::VisualWidth;
 
 sub width {
-    my $str = shift or return 0;
+    my $str = shift;
     return xs_get_visualwidth_utf8($str);
 }
 
 sub trim {
-    my $str = shift or return "";
-    my $length = shift or return $str;
+    my ( $str, $length ) = @_;
+    return $str unless ( defined $str and defined $length );
     return xs_trim_visualwidth_utf8($str, $length);
 }
 

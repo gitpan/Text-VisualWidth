@@ -1,4 +1,4 @@
-Text-VisualWidth version 0.01
+Text-VisualWidth version 0.02
 =============================
 
 This module provides functions to treat half-width and full-width
@@ -18,7 +18,7 @@ To install this module type the following:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2007 by Takaaki Mizuno
+Copyright (C) 2007-2008 by Takaaki Mizuno
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
